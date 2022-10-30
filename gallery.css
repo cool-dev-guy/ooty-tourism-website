@@ -1,0 +1,16 @@
+.images_container{
+padding-left:250px;
+padding-right:250px;
+display:grid;
+grid-gap:20px;
+grid-template-columns:1fr 1fr 1fr;
+}
+img{
+border-radius:15px;
+width:100%;
+height:100%;
+}
+img:hover{
+scale:1.04;
+transition:0.2s;
+}
